@@ -1,8 +1,7 @@
-# Created using wingetcreate 1.12.13.0
-# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.6.0.schema.json
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.12.0.schema.json
 
 PackageIdentifier: RC.HareRGB
-PackageVersion: 1.0.0-beta.2
+PackageVersion: 1.0.0-beta.4
 PackageLocale: en-US
 Publisher: Ravitz Computers
 PublisherUrl: https://ravitzcomputers.com
@@ -27,9 +26,9 @@ Description: |-
   can be saved, applied anywhere and shared as files. A spare monitor becomes
   a touch control panel, and a cooler's screen can show a live temperature.
 
-  Note: motherboard and memory lighting needs the PawnIO driver, which an
-  unattended install deliberately skips. Install it from Settings > Hardware
-  after the first launch -- one click, one prompt.
+  Beta 4 bundles the Visual C++ runtime and PawnIO driver and installs them
+  when needed, including unattended setup. If driver setup fails, use
+  Settings > Hardware after first launch.
 Moniker: hare
 Tags:
 - rgb
@@ -38,9 +37,9 @@ Tags:
 - led
 - gaming
 - pc
-ReleaseNotesUrl: https://github.com/Ravitz-Computers/HARE/releases/tag/Beta2c
+ReleaseNotesUrl: https://github.com/Ravitz-Computers/HARE/releases/tag/Beta-4
 Documentations:
 - DocumentLabel: What works and what doesn't
   DocumentUrl: https://github.com/Ravitz-Computers/HARE/blob/main/docs/STATUS.md
 ManifestType: defaultLocale
-ManifestVersion: 1.6.0
+ManifestVersion: 1.12.0
