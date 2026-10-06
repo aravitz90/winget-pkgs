@@ -19,7 +19,6 @@ Installers:
   InstallerSha256: 2A03ABB0CC6EE2EA56E88AAA49E8444462F546F9A5B60595B55E5811679F76BB
   AppsAndFeaturesEntries:
   - DisplayName: Webbit
-    DisplayVersion: 0.1.0
     Publisher: Ravitz Computers
     ProductCode: Webbit
 ManifestType: installer
